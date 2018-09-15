@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FactoryPattern</string>
+
+    <!--祁红-->
+    <string name="app_main_qimen_tea_color">祁门红茶 - 汤色红艳明亮</string>
+    <string name="app_main_qimen_tea_flavor">祁门红茶 - 【花香】蕴含着玫瑰花香，香气馥郁持久；滋味甘甜醇厚</string>
+    <string name="app_main_qimen_dry_tea_shape">祁门红茶 - 条索紧细匀整，锋苗秀丽，色泽乌润</string>
+
+    <!--滇红-->
+    <string name="app_main_dian_tea_color">滇红 - 汤色红浓透明，金圈显露</string>
+    <string name="app_main_dian_tea_flavor">滇红 - 【花果香】香气高纯持久；滋味浓厚鲜爽</string>
+    <string name="app_main_dian_dry_tea_shape">滇红 - 条索紧直肥壮，苗锋秀丽完整，金毫多而显露，色泽油润</string>
+
+    <!--肉桂-->
+    <string name="app_main_rougui_tea_color">肉桂 - 汤色橙红</string>
+    <string name="app_main_rougui_tea_flavor">肉桂 - 【桂皮香】香气馥郁，滋味浓烈甘醇、优雅</string>
+    <string name="app_main_rougui_dry_tea_shape">肉桂 - 条索紧细、重实，色泽乌黑带砂绿，油润有光</string>
+
+
+</resources>
