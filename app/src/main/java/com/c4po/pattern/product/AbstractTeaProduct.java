@@ -5,7 +5,7 @@ package com.c4po.pattern.product;
  * @date 2018/9/15
  */
 
-public  abstract class AbstractTeaProduct   {
+public abstract class AbstractTeaProduct   {
 
     /**
      * 茶汤颜色

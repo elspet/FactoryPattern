@@ -22,18 +22,18 @@ public class LisaTheCat {
         AbstractTeaProduct qimenBlackTea = creator.makeTea(QimenBlackTea.class);
         qimenBlackTea.dryTeaShape();
         qimenBlackTea.teaColor();
-        qimenBlackTea.teaColor();
+        qimenBlackTea.teaFlavor();
         System.out.println("---------------");
         // 滇红
         AbstractTeaProduct dianBlackTea = creator.makeTea(DianBlackTea.class);
         dianBlackTea.dryTeaShape();
         dianBlackTea.teaColor();
-        dianBlackTea.teaColor();
+        dianBlackTea.teaFlavor();
         System.out.println("---------------");
         // 肉桂
         AbstractTeaProduct rouguiWulongTea = creator.makeTea(RouguiWulongTea.class);
         rouguiWulongTea.dryTeaShape();
         rouguiWulongTea.teaColor();
-        rouguiWulongTea.teaColor();
+        rouguiWulongTea.teaFlavor();
     }
 }
