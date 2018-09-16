@@ -2,6 +2,7 @@ package com.c4po.pattern.client;
 
 import com.c4po.pattern.factory.AbstractTeaFactory;
 import com.c4po.pattern.factory.ConcreteTeaFactory;
+import com.c4po.pattern.factory.SimpleTeaFactory;
 import com.c4po.pattern.product.AbstractTeaProduct;
 import com.c4po.pattern.product.DianBlackTea;
 import com.c4po.pattern.product.QimenBlackTea;
@@ -30,10 +31,14 @@ public class LisaTheCat {
         dianBlackTea.teaColor();
         dianBlackTea.teaFlavor();
         System.out.println("---------------");
+
+        // 简单工厂模式，也叫静态工厂模式
         // 肉桂
-        AbstractTeaProduct rouguiWulongTea = creator.makeTea(RouguiWulongTea.class);
+        AbstractTeaProduct rouguiWulongTea = SimpleTeaFactory.makeTea(RouguiWulongTea.class);
         rouguiWulongTea.dryTeaShape();
         rouguiWulongTea.teaColor();
         rouguiWulongTea.teaFlavor();
+
+
     }
 }
